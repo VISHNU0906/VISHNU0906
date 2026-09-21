@@ -1,45 +1,86 @@
-## Vishnu Kosuri
+# Vishnu Kosuri
 
-AI security researcher and security engineer, based in Bengaluru. I work on the
-security of AI systems: red teaming, jailbreaks, prompt injection and agent
-security, and I build and secure the infrastructure underneath. I came to AI safety
-the practical way: penetration testing, CTF competitions and vulnerability research.
+I work across software engineering, machine learning, product security and penetration testing. I was the first engineer at Vahini Technologies, where I helped turn a sensor-pen concept into a working product. I now build security tools at Zenith and study how AI systems behave when their inputs or tools cannot be trusted.
 
-Founding engineer (employee 1) at a deep-tech startup, and first-named inventor on
-granted patent IN584433. SANS NetWars Tournament Core champion.
+[Portfolio](https://vishnu.aresredteam.com) · [LinkedIn](https://www.linkedin.com/in/vishnu-kosuri/) · [Email](mailto:kvr.vishnu23@gmail.com)
 
-**Portfolio: [vishnu.aresredteam.com](https://vishnu.aresredteam.com)**  ·  [LinkedIn](https://www.linkedin.com/in/vishnu-kosuri/)  ·  kvr.vishnu23@gmail.com
+## Experience
 
-### Selected work
+**Zenith | Founder | August 2026 to present**
 
-**Security of deployed AI systems**
+Building ARES RED TEAM to organize security assessments, connect testing tools and keep findings linked to their evidence. My focus is making automated results reproducible and useful to the engineers fixing the problem.
 
-- **[agentprobe](https://github.com/VISHNU0906/agentprobe)**: black-box security probes for deployed LLM agents and MCP servers. Point it at an OpenAI-style chat endpoint or a stdio MCP server; it runs evidence-based probes (system-prompt leakage, indirect injection through fetched content, tool-description injection, path traversal, internal-metadata fetches, markdown exfiltration, unconfirmed sensitive actions) mapped to the OWASP Top 10 for LLM Applications, with vulnerable and hardened mock targets and one documented run against a real open-source MCP server.
-- **[safeguard-probe](https://github.com/VISHNU0906/safeguard-probe)**: automated testing of misuse safeguards across multi-turn and multi-session interactions. Six strategy families, three detector levels, a labelled multi-interaction benchmark and an Inspect task adapter. Benign by construction and offline against a deterministic mock model.
-- **[agentlog-monitor](https://github.com/VISHNU0906/agentlog-monitor)**: monitors for multi-agent transcripts (instruction propagation between agents, acrostic and invisible-Unicode covert channels, role drift, agreed-token signals), a synthetic corpus with ground truth, and a red-versus-blue mutation mode that shows which monitors break.
-- **[mirage](https://github.com/VISHNU0906/mirage)**: a deliberately vulnerable LLM application and an attack framework across the OWASP LLM and API Top 10, paired with a hardened build.
+**Vahini Technologies | Founding Software Engineer, employee #1 | December 2024 to August 2026**
 
-**Earlier AI-safety scaffolds (June 2026, offline mock targets; each README says what is real)**
+- Built the handwriting-recognition workflow, from motion-data collection and preprocessing to model training and software integration.
+- Developed the web application, REST APIs and PostgreSQL services, including authentication, access controls and automated deployment.
+- Reviewed application and device security. Firmware analysis with Ghidra identified hardcoded credentials across two device variants, which I worked with the team to address.
+- Supported pilots across five schools and more than 500 students, alongside product demonstrations and investor discussions.
 
-- **[taint](https://github.com/VISHNU0906/taint)**: detects when an agent followed indirect prompt injection hidden in a page, file or tool output, and gates the high-risk responses.
-- **[autoforge](https://github.com/VISHNU0906/autoforge)**: a loop that searches for jailbreak strategies without hand-written payloads and clusters them into a taxonomy.
-- **[refusal-climb](https://github.com/VISHNU0906/refusal-climb)**: uses a refusal direction and strength as a search signal to map the refusal boundary.
+**Tapnex | Security Consultant | July to October 2024**
 
-**Cloud and application security**
+Found 11 issues across a cashless-event platform's web, mobile and API components, including authentication and access-control failures. Documented the impact and worked with engineers to check fixes before launch.
 
-- **[gatekeeper](https://github.com/VISHNU0906/gatekeeper)**: a CI/CD security gate that consolidates SAST, dependency, secret, IaC and container scanners into one report, with baseline diffing and false-positive triage.
-- **[cloudrange](https://github.com/VISHNU0906/cloudrange)**: a vulnerable AWS environment, an IAM privilege-escalation attack chain, and a read-only auditor that maps each path back to a fix.
+**ISAC, National Security Database | Penetration Testing Intern | June to July 2024**
 
-**Security observability**
+Contributed to assessments of two commercial websites that identified 18 vulnerabilities, including five rated critical. Prepared reproduction steps, severity assessments and remediation guidance.
 
-- **[bastion](https://github.com/VISHNU0906/bastion)**: turns security signals (certificate expiry, CVEs, authentication failures) into metrics, service-level objectives, dashboards and incident routing.
-- **[triage](https://github.com/VISHNU0906/triage)**: correlates alert storms into root-cause incidents to cut on-call noise.
+**CSAI Research and Development Cell | Research Analyst**
 
-### Background
+Contribute research and explainers on AI security and emerging threats for industry and public-service audiences. Supported events reaching more than 600 professionals.
 
-Patent IN584433 (Government of India, 2026), first-named inventor, built with my team.
-SANS NetWars Tournament Core, 1st place; OWASP AppSec Bangalore BeSec CTF, 1st place.
-GIAC GFACT, GSEC and GCIH; CEH; eJPT; ISC2 CC; OSCP in progress.
-B.Tech in Computer Science and Engineering (Cyber Security), Jain University, expected 2027.
+## Granted patent
 
-Open to AI-safety research and security-engineering roles.
+**Handwriting Recognition with an Intelligent Ballpoint Pen Using IMU Sensors**
+
+First-named inventor on Indian Patent **584433**, granted on **23 March 2026**. Built with my team at Vahini Technologies.
+
+The pen records movement through inertial sensors. My work included data preparation, Kalman filtering, sequence alignment and CNN/Bi-LSTM recognition, alongside the application that makes the results usable. The model reached approximately 82% character accuracy during development.
+
+[View the grant certificate](https://vishnu.aresredteam.com/assets/patent-granted.png)
+
+## Security research
+
+Immunefi researcher: **VK05UR1**.
+
+- **Orca Whirlpools:** reported an account-buffer bounds issue through Immunefi and received a $500 bounty.
+- **Folks Finance:** submitted a finding concerning staking-cap accounting and deposit lockout through Immunefi.
+- **Gray Swan:** 47th in the June 2026 Indirect Prompt Injection challenge.
+
+## Open-source contributions
+
+- [CERT Polska Artemis: file handling and encoding](https://github.com/CERT-Polska/Artemis/commit/2d1f8723a2f263ba8455fa601bff1c71dfada355)
+- [CERT Polska Artemis: resource cleanup](https://github.com/CERT-Polska/Artemis/commit/929ada240cc737a7e9dfc25555c87164d71fc427)
+- [CERT Polska Artemis: clearer type information](https://github.com/CERT-Polska/Artemis/commit/606c3462ed53a0377ee1b4ae86222bb2b50d7251)
+- [DefectDojo: closing file handles](https://github.com/DefectDojo/django-DefectDojo/commit/797b40534fe6ff1e9a9b3ee9c2e389e5435f8901)
+- [CDLI ATF Converter: bilingual text handling](https://github.com/cdli-gh/atf2conll-convertor/commit/5d0f923a68d06ae90d2397840c333d246ac27c56)
+
+## CTF results
+
+- 1st, SANS NetWars Tournament Core
+- 1st, OWASP AppSec Bangalore BeSec CTF, Web Application Security Track
+- 1st, Wicked6 CTF
+- 3rd, SANS Women's Month Celebration CTF
+- 4th, CloudSecurityAlliance Bangalore CTF
+- 6th, SANS Veterans Day CTF
+- 7th, Amazon CTF
+- 85th, Google Cloud Security CTF
+
+## Community and programs
+
+Founded Salus Cybersecurity Club at Jain University, a community of more than 200 members. As an AWS Cloud Captain, delivered four workshops for more than 150 students. Also served as Cyber Security Facilitator for GDG On Campus.
+
+- **Y Combinator Startup School, India cohort, 2026:** one of 2,000 participants selected from 40,000 applicants; awarded a $25,000 grant.
+- **1752 Ventures Accelerator, 2026:** selected for mentorship and founder support for ARES RED TEAM and Zenith.
+- **Founder Inc. Canopy, 2025:** completed the founder program for Zenith.
+- **McKinsey Forward, 2025:** completed the professional-development program in leadership, problem-solving and communication.
+
+## Qualifications
+
+GIAC GCIH, GSEC and GFACT; CEHv13; eJPTv2; ISC2 CC. ISO/IEC 27001 Lead Implementer training.
+
+B.Tech in Computer Science and Engineering, Jain University. Expected May 2027.
+
+## Research code
+
+[AI Vulnerability Scanner](https://github.com/VISHNU0906/vulnerability-scanner) brings code-scanning results together for review. [TAINT](https://github.com/VISHNU0906/taint) compares ways to detect unwanted instructions in agent inputs. [REFUSAL-CLIMB](https://github.com/VISHNU0906/refusal-climb) studies refusal signals. [AUTOFORGE](https://github.com/VISHNU0906/autoforge) explores how to cover different failure patterns within a fixed evaluation budget.
