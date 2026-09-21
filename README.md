@@ -83,4 +83,6 @@ B.Tech in Computer Science and Engineering, Jain University. Expected May 2027.
 
 ## Research code
 
+[ARES RED TEAM](https://github.com/VISHNU0906/ares-pi) checks saved Pi agent sessions against explicit tool policies, with branch-aware findings and batch comparisons.
+
 [AI Vulnerability Scanner](https://github.com/VISHNU0906/vulnerability-scanner) brings code-scanning results together for review. [TAINT](https://github.com/VISHNU0906/taint) compares ways to detect unwanted instructions in agent inputs. [REFUSAL-CLIMB](https://github.com/VISHNU0906/refusal-climb) studies refusal signals. [AUTOFORGE](https://github.com/VISHNU0906/autoforge) explores how to cover different failure patterns within a fixed evaluation budget.
