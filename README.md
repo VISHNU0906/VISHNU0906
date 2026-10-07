@@ -2,7 +2,7 @@
 
 I work across software engineering, machine learning, product security and penetration testing. I was the first engineer at Vahini Technologies, where I helped turn a sensor-pen concept into a working product. I now build security tools at Zenith and study how AI systems behave when their inputs or tools cannot be trusted.
 
-[Portfolio](https://vishnu.aresredteam.com) · [LinkedIn](https://www.linkedin.com/in/vishnu-kosuri/) · [Email](mailto:kvr.vishnu23@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/vishnu-kosuri/) · [Email](mailto:kvr.vishnu23@gmail.com)
 
 ## Experience
 
