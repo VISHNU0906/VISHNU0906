@@ -2,7 +2,7 @@
 
 Security researcher and self-taught AI engineer in Bengaluru. Interested in LLM red teaming, prompt injection, agent observability and interpretability.
 
-[Portfolio](https://vishnu.aresredteam.com) · [LinkedIn](https://www.linkedin.com/in/vishnu-kosuri/) · [Email](mailto:kvr.vishnu23@gmail.com) · [Book a 15-minute call](https://cal.com/vishnu-kosuri/15min)
+[LinkedIn](https://www.linkedin.com/in/vishnu-kosuri/) · [Email](mailto:kvr.vishnu23@gmail.com) · [Book a 15-minute call](https://cal.com/vishnu-kosuri/15min)
 
 ### Work
 - **Zenith**, founder: AI-powered security assessments.
