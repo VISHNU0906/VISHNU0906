@@ -6,7 +6,7 @@ Security researcher and self-taught AI engineer in Bengaluru. Interested in LLM 
 
 ### Work
 - **Zenith**, founder: AI-powered security assessments.
-- **Vahini Technologies**, founding ml engineer: built the ML pipeline for an IMU handwriting pen. Lead inventor on 2 granted Indian patents.
+- **Vahini Technologies**, founding ml engineer: built the ML pipeline for an IMU handwriting pen. Lead inventor on 2 patents.
 - **Penetration testing**: 29 vulnerabilities found across web, mobile and API in authorized tests.
 
 ### Research code
@@ -23,4 +23,4 @@ Security researcher and self-taught AI engineer in Bengaluru. Interested in LLM 
 ### CTF wins
 - 1st, SANS NetWars Tournament Core
 - 1st, OWASP AppSec Bangalore BeSec CTF
-- Top 10 at Cloud Security Alliance Bangalore, SANS Veterans Day and Amazon CTFs
+- Top 10 at Cloud Security Alliance Bangalore and Amazon CTFs
